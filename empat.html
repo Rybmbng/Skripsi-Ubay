@@ -31,9 +31,18 @@
 
         <div class="btn-lanjut">
             <a type="button" class="btn btn-primary btn-css" href="dua.html">Kembali</a><br/>
-            <a type="button" class="btn btn-primary btn-mulai" href="blynk://7sZu_rm7gK88zOgW75T7K16fIUE_2cUV/TMPL6WpM40zNC">Mulai Pengujian</a>
+            <a type="button" class="btn btn-primary btn-css" id="openBlynk">Mulai Pengujian</a>
         </div>
     </div>
+    <script>
+      document.getElementById('openBlynk').addEventListener('click', function() {
+          // Ganti YOUR_AUTH_TOKEN dan YOUR_PROJECT_ID dengan informasi proyek Blynk Anda
+          var blynkLink = "blynk://7sZu_rm7gK88zOgW75T7K16fIUE_2cUV/7sZu_rm7gK88zOgW75T7K16fIUE_2cUV";
+          window.location.href = blynkLink;
+          console.log("berhasil");
+      });
+  </script>
+
 </body>
 </html>
 <!-- #define BLYNK_TEMPLATE_ID "TMPL6WpM40zNC"
