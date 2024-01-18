@@ -1,0 +1,68 @@
+html{
+    gap: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(2, 180, 208);
+    align-items: center;
+}
+
+.img-atas{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 200px;
+}
+.title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.text-red{
+    color: red;
+}
+.text-blue{
+    color: blue;
+}
+
+.text-title{
+    font-size : 25px;
+}
+.text-bold{
+    font-weight: 500;
+}
+.img-top{
+    border-radius: 4%;
+}
+.img-rounded{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.text-content{
+    margin-top: 20px;
+}
+
+.content{
+    margin-top: 50px;
+}
+.btn-lanjut{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.btn-css{
+    width: 150px;
+    margin-bottom: 5px;
+
+}
+.btn-mulai{
+    width: 150px;
+}
